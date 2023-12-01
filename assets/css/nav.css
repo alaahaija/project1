@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +13,17 @@
 }
 a{
     text-decoration: none;
+}
+header{
+    box-shadow: 0px 1.647px 8.237px 0px rgba(0, 0, 0, 0.10);
+    padding: 10px;
+    position: sticky;
+    top:0;
+    width: 100%;
+    background-color: white;
+}
+header .logo img{
+    width: 25px;
 }
 .row{
     display: flex;
@@ -27,17 +39,6 @@ a{
 .logo a{
     font-family:'Roboto' ;
     font-weight: 700;
-}
-header{
-    box-shadow: 0px 1.647px 8.237px 0px rgba(0, 0, 0, 0.10);
-    padding: 10px;
-    position: sticky;
-    top:0;
-    width: 100%;
-    background-color: white;
-}
-header .logo img{
-    width: 25px;
 }
 nav ul{
     display: flex;
@@ -72,8 +73,34 @@ nav ul li a{
     background-color: #545BE8;
     color: white;
 }
+.Testimonials h2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Mada';
+}
 .Testimonials{
     padding: 40px 0;
+}
+.Testimonial{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 8.237px 8.237px 0px rgba(0, 0, 0, 0.10);
+    position: relative;
+}
+.Testimonial:after{
+    content: "";
+    width: 0px;
+    height:0px;
+    position: absolute;
+    top:0;
+    right: 0;
+    border-top: 20px solid #7a7777;
+    border-right: 20px solid #7a7777;
+    border-left: 20px solid white;
+    border-bottom: 20px solid white;
 }
 .Testimonials .test-info{
     display: flex;
@@ -100,27 +127,6 @@ nav ul li a{
 .Testimonials blockquote q{
     font-family: 'Poppins';
     color: #646464;
-}
-.Testimonial{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-    background-color: white;
-    box-shadow: 0px 8.237px 8.237px 0px rgba(0, 0, 0, 0.10);
-    position: relative;
-}
-.Testimonial:after{
-    content: "";
-    width: 0px;
-    height:0px;
-    position: absolute;
-    top:0;
-    right: 0;
-    border-top: 20px solid #7a7777;
-    border-right: 20px solid #7a7777;
-    border-left: 20px solid white;
-    border-bottom: 20px solid white;
 }
 footer{
     background: #393E46;
