@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 4444444444px;
+}
+.container{
+    width: calc(100% - 180px);
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo a{
+    font-family:'Roboto' ;
+    font-weight: 700;
+}
+header{
+    box-shadow: 0px 1.647px 8.237px 0px rgba(0, 0, 0, 0.10);
+    padding: 10px;
+    position: sticky;
+    top:0;
+    width: 100%;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    gap:15px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+nav ul li a{
+    font-family: 'Poppins';
+    color: #101928;
+}
+.bold{
+    font-weight: 900;
+}
+.auth{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Inter';
+    gap: 10px;
+}
+.auth a{
+    border: solid #545BE8;
+    border-radius: 4.119px;
+    padding: 5.354px 20.181px;
+}
+.log{
+    border: 0.412px solid #545BE8;
+    color: #545BE8;
+}
+.reg{
+    background-color: #545BE8;
+    color: white;
+}
