@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: calc(100% - 180px);
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.services .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.description, .service-items{
+    width: calc((100% - 20px) / 2);
+}
+.services{
+    padding: 30px 0px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 4.119px;
+    background: #545BE8;
+    color: white;
+    padding: 15px;
+}
+.services .service svg{
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    padding: 9px;
+    box-sizing:content-box;
+}
+.service h2{
+    font-family: 'Inter';
+    font-size: 14px;
+}
+.service p{
+    font-family: 'Poppins';
+    font-size: 10px;
+}
